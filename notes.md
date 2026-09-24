@@ -62,4 +62,4 @@ std::signal(SIGINT, handle_signal);
 
       cv::resize(img, img, {}, 0.5, 0.5);
     cv::imshow("standard_mpc", img);
-    if (cv::waitKey(1) == 'q') break;
+    if (cv::waitKey(1) == 'q') break;测试提交
